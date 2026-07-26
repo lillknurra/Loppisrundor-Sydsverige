@@ -2,6 +2,37 @@
 
 Alla betydande ändringar av verifierade dataset och publicerade exporter dokumenteras här.
 
+## 2026-07-26 – Hallandsrundan version 1
+
+### Färdigställd
+
+- Publicerade Hallandsrundan version 1 med 10 verifierade tisdagstopp i Ängelholm, Laholm, Halmstad och Höganäs.
+- Datasetet innehåller 7 valda stopp och 3 villkorade stopp.
+- Lade till Erikshjälpen Second Hand Halmstad och Myrorna Halmstad från respektive officiell butikssida.
+- Samtliga koordinater lämnas `NULL`; version 1 är därför adressbaserad och inga kartpunkter har gissats.
+- Kretsloppans publicerade ytterintervall är 10:00–15:30, men butiken har lunchstängt 12:30–13:00 och detta är dokumenterat i stoppets notering.
+- Gjorde Hallandsseedens butiksinlägg återkörningsbara med `INSERT OR IGNORE`.
+- Publicerade härledda exporter:
+  - `exports/csv/hallandsrundan_v1.csv`
+  - `exports/geojson/hallandsrundan_v1.geojson`
+
+### Validering
+
+Valideringen kördes mot `database/schema.sql` och båda seed-filerna i en ren SQLite-databas, med seed-filerna applicerade två gånger:
+
+- `PRAGMA integrity_check;` → `ok`
+- `PRAGMA foreign_key_check;` → inga rader
+- dubbel seed-körning skapade inga dubbletter
+- Hallandsrundan innehåller 10 stopp: 7 `selected` och 3 `conditional`
+- `v_route_candidates` och `v_needs_verification` kördes utan fel
+- CSV-exporten innehåller 10 datarader i databasens stoppordning
+- GeoJSON-exporten innehåller 10 features i samma stoppordning
+- GeoJSON använder `geometry: null` för samtliga stopp eftersom koordinaterna är avsiktligt overifierade
+
+### Kända begränsningar
+
+Hallandsrundan version 1 är färdig som adressbaserad runda. Exakta koordinater kan kompletteras senare när de kan styrkas mot godkända källor. Myrorna Halmstads postnummer är också `NULL` eftersom den använda officiella butikssidan inte anger det.
+
 ## 2026-07-26 – Söderrundan version 1
 
 ### Färdigställd

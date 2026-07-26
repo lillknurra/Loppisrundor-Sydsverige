@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hallandsrundan version 1",
+  "generated_at": "2026-07-26",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "halland-pmu-angelholm",
+      "geometry": null,
+      "properties": {
+        "stop_order": 1,
+        "name": "PMU Second Hand Ängelholm",
+        "address": "Transportgatan 5",
+        "postcode": "262 71",
+        "locality": "Ängelholm",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "10:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 60,
+        "source_url": "https://pmu.se/butik/angelholm/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-fyndhuset-angelholm",
+      "geometry": null,
+      "properties": {
+        "stop_order": 2,
+        "name": "Fyndhuset Ängelholm",
+        "address": "Heimdallgatan 42",
+        "postcode": "262 71",
+        "locality": "Ängelholm",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "14:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 50,
+        "source_url": "https://www.fyndhusetengelholm.se/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-roda-korset-angelholm",
+      "geometry": null,
+      "properties": {
+        "stop_order": 3,
+        "name": "Röda Korset Second hand Ängelholm",
+        "address": "Storgatan 4A",
+        "postcode": "262 32",
+        "locality": "Ängelholm",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "14:00",
+        "tuesday_closes": "17:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 35,
+        "source_url": "https://www.rodakorset.se/ort/skane/angelholms-kommun/second-hand/roda-korset-second-hand-angelholms/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-roda-korset-laholm",
+      "geometry": null,
+      "properties": {
+        "stop_order": 4,
+        "name": "Röda Korset Second hand Laholm",
+        "address": "Östertullsgatan 24",
+        "postcode": "312 30",
+        "locality": "Laholm",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "10:00",
+        "tuesday_closes": "17:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 40,
+        "source_url": "https://www.rodakorset.se/ort/halland/laholms-kommun/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-kretsloppan-halmstad",
+      "geometry": null,
+      "properties": {
+        "stop_order": 5,
+        "name": "Kretsloppan Halmstad",
+        "address": "Knäredsgatan 23",
+        "postcode": "302 50",
+        "locality": "Halmstad",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "10:00",
+        "tuesday_closes": "15:30",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 50,
+        "source_url": "https://www.halmstad.se/byggaboochmiljo/avfallochatervinning/aterbrukochateranvandning/kretsloppansecondhandbutik.n2299.html",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-pmu-halmstad",
+      "geometry": null,
+      "properties": {
+        "stop_order": 6,
+        "name": "PMU Second Hand Halmstad",
+        "address": "Stormgatan 10",
+        "postcode": "302 63",
+        "locality": "Halmstad",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "12:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 60,
+        "source_url": "https://pmu.se/butik/halmstad/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-roda-korset-halmstad",
+      "geometry": null,
+      "properties": {
+        "stop_order": 7,
+        "name": "Röda Korset Second hand Halmstad",
+        "address": "Ryttarevägen 11",
+        "postcode": "302 62",
+        "locality": "Halmstad",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "12:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "selected",
+        "visit_minutes": 45,
+        "source_url": "https://www.rodakorset.se/ort/halland/halmstads-kommun/second-hand/roda-korset-second-hand-halmstad/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-roda-korset-hoganas",
+      "geometry": null,
+      "properties": {
+        "stop_order": 8,
+        "name": "Röda Korset Second hand Höganäs",
+        "address": "Storgatan 21",
+        "postcode": "263 37",
+        "locality": "Höganäs",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "13:00",
+        "tuesday_closes": "17:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "conditional",
+        "visit_minutes": 35,
+        "source_url": "https://www.rodakorset.se/ort/skane/hoganas-kommun/second-hand/roda-korset-second-hand-hoganas/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-erikshjalpen-halmstad",
+      "geometry": null,
+      "properties": {
+        "stop_order": 9,
+        "name": "Erikshjälpen Second Hand Halmstad",
+        "address": "Ryttarevägen 10",
+        "postcode": "302 62",
+        "locality": "Halmstad",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "11:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "conditional",
+        "visit_minutes": 60,
+        "source_url": "https://erikshjalpen.se/butiker/second-hand-halmstad/",
+        "checked_at": "2026-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "halland-myrorna-halmstad",
+      "geometry": null,
+      "properties": {
+        "stop_order": 10,
+        "name": "Myrorna Halmstad",
+        "address": "Karl XI:s väg 47",
+        "postcode": null,
+        "locality": "Halmstad",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_status": "unverified",
+        "tuesday_opens": "10:00",
+        "tuesday_closes": "18:00",
+        "tuesday_status": "verified_open",
+        "candidate_status": "conditional",
+        "visit_minutes": 40,
+        "source_url": "https://www.myrorna.se/butiker/halmstad/halmstad/",
+        "checked_at": "2026-07-26"
+      }
+    }
+  ]
+}
