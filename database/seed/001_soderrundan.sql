@@ -4,7 +4,7 @@ BEGIN;
 INSERT OR IGNORE INTO routes (route_code, name, description) VALUES
 ('SOUTH', 'Söderrundan', 'Söderrundan version 1: verifierad tisdagsrunda i Lund, Malmö, Trelleborg och Ystad.');
 
-INSERT OR IGNORE INTO shops (
+INSERT INTO shops (
     public_id, route_code, name, address, postcode, locality,
     latitude, longitude, tuesday_opens, tuesday_closes, tuesday_status,
     source_url, source_type, checked_at, assessment, candidate_status,
