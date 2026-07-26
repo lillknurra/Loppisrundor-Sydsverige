@@ -2,6 +2,36 @@
 
 Alla betydande ändringar av verifierade dataset och publicerade exporter dokumenteras här.
 
+## 2026-07-26 – Blekingerundan version 1
+
+### Färdigställd
+
+- Publicerade Blekingerundan version 1 med 11 verifierade tisdagstopp i Bromölla, Kristianstad, Sölvesborg, Asarum och Karlshamn.
+- Datasetet innehåller 8 valda stopp och 3 villkorade stopp.
+- Samtliga koordinater lämnas `NULL`; version 1 är därför adressbaserad och inga kartpunkter har gissats.
+- Stoppordningen är en första geografisk arbetsordning och är ännu inte fullständigt tidsoptimerad.
+- Hållbarens publicerade ytterintervall är 10:00–15:30, men verksamheten har lunchstängt 12:00–13:00 och detta är dokumenterat i stoppets notering.
+- Publicerade härledda exporter:
+  - `exports/csv/blekingerundan_v1.csv`
+  - `exports/geojson/blekingerundan_v1.geojson`
+
+### Validering
+
+Valideringen ska köras mot `database/schema.sql` och samtliga tre seed-filer i en ren SQLite-databas, med seed-filerna applicerade två gånger:
+
+- `PRAGMA integrity_check;` → `ok`
+- `PRAGMA foreign_key_check;` → inga rader
+- dubbel seed-körning skapar inga dubbletter
+- Blekingerundan innehåller 11 stopp: 8 `selected` och 3 `conditional`
+- `v_route_candidates` och `v_needs_verification` körs utan fel
+- CSV-exporten innehåller 11 datarader i databasens stoppordning
+- GeoJSON-exporten innehåller 11 features i samma stoppordning
+- GeoJSON använder `geometry: null` för samtliga stopp eftersom koordinaterna är avsiktligt overifierade
+
+### Kända begränsningar
+
+Blekingerundan version 1 är färdig som adressbaserad runda. Exakta koordinater kan kompletteras senare när de kan styrkas mot godkända källor. Bromölla, Norreboden och Hållbaren är villkorade främst på grund av snäva eller sena öppettider.
+
 ## 2026-07-26 – Hallandsrundan version 1
 
 ### Färdigställd
