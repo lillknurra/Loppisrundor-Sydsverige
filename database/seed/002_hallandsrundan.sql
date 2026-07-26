@@ -1,0 +1,22 @@
+PRAGMA foreign_keys = ON;
+BEGIN;
+
+INSERT OR IGNORE INTO routes (route_code, name, description) VALUES
+('HALLAND', 'Hallandsrundan', 'Hallandsrundan version 1: verifierad adressbaserad tisdagsrunda i Ängelholm, Laholm och Halmstad, med Höganäs som villkorat tilläggsstopp.');
+
+INSERT INTO shops (
+    public_id, route_code, name, address, postcode, locality,
+    latitude, longitude, tuesday_opens, tuesday_closes, tuesday_status,
+    source_url, source_type, checked_at, assessment, candidate_status,
+    stop_order, visit_minutes, notes
+) VALUES
+('halland-pmu-angelholm', 'HALLAND', 'PMU Second Hand Ängelholm', 'Transportgatan 5', '262 71', 'Ängelholm', NULL, NULL, '10:00', '18:00', 'verified_open', 'https://pmu.se/butik/angelholm/', 'official_website', '2026-07-26', 'Hög prioritet: stor välgörenhetsbutik med brett sortiment och god rundstart.', 'selected', 1, 60, 'Adress och tisdagstid verifierade på PMU:s officiella butikssida. Koordinater lämnas NULL; adress är tillräcklig för version 1.'),
+('halland-fyndhuset-angelholm', 'HALLAND', 'Fyndhuset Ängelholm', 'Heimdallgatan 42', '262 71', 'Ängelholm', NULL, NULL, '14:00', '18:00', 'verified_open', 'https://www.fyndhusetengelholm.se/', 'official_website', '2026-07-26', 'Hög prioritet: antikt, kuriosa, retro och möbler med tydlig loppisprofil.', 'selected', 2, 50, 'Adress och tisdagstid verifierade på verksamhetens officiella webbplats. Öppnar 14:00 och bör tidsplaneras därefter.'),
+('halland-roda-korset-angelholm', 'HALLAND', 'Röda Korset Second hand Ängelholm', 'Storgatan 4A', '262 32', 'Ängelholm', NULL, NULL, '14:00', '17:00', 'verified_open', 'https://www.rodakorset.se/ort/skane/angelholms-kommun/second-hand/roda-korset-second-hand-angelholms/', 'official_website', '2026-07-26', 'Normal prioritet: diversehandel med kläder, skor, porslin och mindre prylar men utan möbler och böcker.', 'selected', 3, 35, 'Adress och tisdagstid verifierade på Röda Korsets officiella butikssida. Öppnar 14:00.'),
+('halland-roda-korset-laholm', 'HALLAND', 'Röda Korset Second hand Laholm', 'Östertullsgatan 24', '312 30', 'Laholm', NULL, NULL, '10:00', '17:00', 'verified_open', 'https://www.rodakorset.se/ort/halland/laholms-kommun/', 'official_website', '2026-07-26', 'Normal prioritet: centralt och stabilt tisdagstopp mellan Ängelholm och Halmstad.', 'selected', 4, 40, 'Adress och tisdagstid verifierade på Röda Korsets officiella Laholmssida.'),
+('halland-kretsloppan-halmstad', 'HALLAND', 'Kretsloppan Halmstad', 'Knäredsgatan 23', '302 50', 'Halmstad', NULL, NULL, '10:00', '15:30', 'verified_open', 'https://www.halmstad.se/byggaboochmiljo/avfallochatervinning/aterbrukochateranvandning/kretsloppansecondhandbutik.n2299.html', 'official_website', '2026-07-26', 'Hög prioritet: kommunal återbruksbutik med möbler, cyklar, glas och porslin.', 'selected', 5, 50, 'Officiell kommunal sida visar tisdag 10:00–12:30 och 13:00–15:30. Exporten använder hela ytterintervallet; lunchstängningen måste beaktas i körplanen.'),
+('halland-pmu-halmstad', 'HALLAND', 'PMU Second Hand Halmstad', 'Stormgatan 10', '302 63', 'Halmstad', NULL, NULL, '12:00', '18:00', 'verified_open', 'https://pmu.se/butik/halmstad/', 'official_website', '2026-07-26', 'Hög prioritet: bred butik med möbler, porslin, böcker, teknik, fritid och kafé.', 'selected', 6, 60, 'Adress, sortiment och tisdagstid verifierade på PMU:s officiella butikssida.'),
+('halland-roda-korset-halmstad', 'HALLAND', 'Röda Korset Second hand Halmstad', 'Ryttarevägen 11', '302 62', 'Halmstad', NULL, NULL, '12:00', '18:00', 'verified_open', 'https://www.rodakorset.se/ort/halland/halmstads-kommun/second-hand/roda-korset-second-hand-halmstad/', 'official_website', '2026-07-26', 'Normal prioritet: etablerad second hand-butik med bra geografiskt slutläge i Halmstad.', 'selected', 7, 45, 'Adress och tisdagstid verifierade på Röda Korsets officiella butikssida.'),
+('halland-roda-korset-hoganas', 'HALLAND', 'Röda Korset Second hand Höganäs', 'Storgatan 21', '263 37', 'Höganäs', NULL, NULL, '13:00', '17:00', 'verified_open', 'https://www.rodakorset.se/ort/skane/hoganas-kommun/second-hand/roda-korset-second-hand-hoganas/', 'official_website', '2026-07-26', 'Villkorat tillägg: husgeråd, kläder, leksaker och mindre fynd, men sen öppning och geografisk avstickare.', 'conditional', 8, 35, 'Adress och tisdagstid verifierade på Röda Korsets officiella butikssida. Tas med endast när sen start eller omvänd körordning passar.');
+
+COMMIT;
