@@ -2,7 +2,7 @@ PRAGMA foreign_keys = ON;
 BEGIN;
 
 INSERT OR IGNORE INTO routes (route_code, name, description) VALUES
-('SOUTH', 'Söderrundan', 'Söderrundan version 1: verifierad tisdagsrunda i Lund, Malmö och Ystad.');
+('SOUTH', 'Söderrundan', 'Söderrundan version 1: verifierad tisdagsrunda i Lund, Malmö, Trelleborg och Ystad.');
 
 INSERT INTO shops (
     public_id, route_code, name, address, postcode, locality,
@@ -19,6 +19,7 @@ INSERT INTO shops (
 ('south-bjorkafrihet-malmo-city', 'SOUTH', 'Björkåfrihet Malmö City', 'Södra Förstadsgatan 14', '211 43', 'Malmö', 55.599700, 13.001800, '11:00', '19:00', 'verified_open', 'https://bjorkafrihet.se/oppettider-bjorkafrihet-second-hand-butiker/', 'official_website', '2026-07-26', 'Normal prioritet: centralt stopp men mer klädtyngt än lagerbutikerna.', 'selected', 7, 35, 'Sommartiden 1 juli–30 augusti är också 11:00–19:00 på vardagar. Postnummer och adresskoordinat verifierade i karttjänst.'),
 ('south-ab-smaland-malmo', 'SOUTH', 'AB Småland', 'Södra Förstadsgatan 25-27', '211 43', 'Malmö', 55.597979, 13.000942, '10:00', '18:00', 'verified_open', 'https://www.skanestadsmission.se/second-hand/', 'official_website', '2026-07-26', 'Låg prioritet: design- och hållbarhetsinriktat, med svagare loppisprofil.', 'conditional', 8, 30, 'Hoppa över först vid tidsbrist. Postnummer och adresskoordinat verifierade i karttjänst.'),
 ('south-skane-stadsmission-triangeln', 'SOUTH', 'Skåne Stadsmission Second Hand Triangeln', 'Södra Förstadsgatan 41', '211 43', 'Malmö', 55.595799, 13.002445, '10:00', '20:00', 'verified_open', 'https://www.skanestadsmission.se/second-hand/', 'official_website', '2026-07-26', 'Låg prioritet: främst vintage, märkeskläder och accessoarer.', 'conditional', 9, 25, 'Hoppa över först vid tidsbrist. Butiken ligger i Triangelns köpcentrum, plan 2. Postnummer och adresskoordinat verifierade i karttjänst.'),
-('south-roda-korset-ystad', 'SOUTH', 'Röda Korset Second hand Ystad', 'Skansgatan 2', '271 43', 'Ystad', 55.428208, 13.820000, '12:00', '17:00', 'verified_open', 'https://www.rodakorset.se/ort/skane/ystads-kommun/second-hand/roda-korset-second-hand-ystad/', 'official_website', '2026-07-26', 'Normal prioritet och geografiskt slutstopp: kläder, glas, porslin och prydnadssaker; inga skrymmande möbler.', 'selected', 10, 35, 'Slutstopp. Officiella sidan anger tisdag–fredag 12:00–17:00 och länkar till karttjänst; adresskoordinaten är verifierad där.');
+('south-erikshjalpen-trelleborg', 'SOUTH', 'Erikshjälpen Second Hand Trelleborg', 'Hedvägen 185', '231 66', 'Trelleborg', NULL, NULL, '11:00', '18:00', 'verified_open', 'https://erikshjalpen.se/butiker/second-hand-trelleborg/', 'official_website', '2026-07-26', 'Hög prioritet: över 650 kvadratmeter med möbler, el, hemmafix, böcker, media och brett hushållssortiment.', 'selected', 10, 60, 'Adress, postnummer, sortiment och tisdagstid verifierade på officiell butikssida. Exakt koordinat lämnas NULL tills kartpunkten kan styrkas.'),
+('south-roda-korset-ystad', 'SOUTH', 'Röda Korset Second hand Ystad', 'Skansgatan 2', '271 43', 'Ystad', 55.428208, 13.820000, '12:00', '17:00', 'verified_open', 'https://www.rodakorset.se/ort/skane/ystads-kommun/second-hand/roda-korset-second-hand-ystad/', 'official_website', '2026-07-26', 'Normal prioritet och geografiskt slutstopp: kläder, glas, porslin och prydnadssaker; inga skrymmande möbler.', 'selected', 11, 35, 'Slutstopp. Officiella sidan anger tisdag–fredag 12:00–17:00 och länkar till karttjänst; adresskoordinaten är verifierad där.');
 
 COMMIT;
