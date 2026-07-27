@@ -4,6 +4,20 @@ Ett versionshanterat datarepository för verifierade loppis- och second hand-run
 
 Repositoryt är i första hand en spårbar datakälla. Det ska vara möjligt att se var varje uppgift kommer från, när den kontrollerades, vilka begränsningar som finns och hur publicerade exporter kan återskapas och verifieras.
 
+## Planera nästa tisdag
+
+När flera personer tillsammans ska välja vilken runda de vill köra börjar
+planeringen här:
+
+- [`docs/tuesday/TUESDAY_ROUND_PREVIEW.md`](docs/tuesday/TUESDAY_ROUND_PREVIEW.md)
+
+Previewn jämför Söderrundan, Hallandsrundan och Blekingerundan som tre tydliga
+alternativ. Den är ett beslutsunderlag innan exakt körordning, tidsschema,
+raster och navigering planeras.
+
+En översikt över arbetsflödet finns i
+[`docs/tuesday/README.md`](docs/tuesday/README.md).
+
 ## Officiell läsordning
 
 Allt arbete ska börja med följande dokument:

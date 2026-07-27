@@ -90,3 +90,33 @@ Skapar:
 - Lokal verifiering krävs före commit, push och PR.
 - Dynamiska merge-SHA-värden hämtas ur Git och kräver inte separata state-lock-patchar.
 - `CHANGELOG.md` reserveras för betydande dataset- och exportändringar; administrativ dokumentation hör hemma i patchhistoriken.
+
+## Patch 005 – Tuesday Round Preview v1
+
+**Status:** IMPLEMENTED på aktiv feature branch; inväntar lokal verifiering och publicering
+**Scope:** Användarnära beslutsunderlag och synkroniserad dokumentation.
+
+### Resultat
+
+- Skapar en särskild `docs/tuesday/`-struktur för framtida besluts- och
+  planeringsunderlag.
+- Skapar `TUESDAY_ROUND_PREVIEW.md` som en visuell jämförelse mellan
+  Söderrundan, Hallandsrundan och Blekingerundan.
+- Presenterar faktiska stopp, geografisk profil, styrkor, villkorade stopp och
+  praktiska begränsningar.
+- Lägger till ett gemensamt beslutsflöde utan att påbörja den detaljerade
+  ruttplaneringen.
+- Länkar previewn från projektets huvudsakliga README.
+- Uppdaterar Patch 005:s benämning till Tuesday Round Preview v1.
+
+### Beständiga beslut
+
+- Val av runda och detaljerad dagsplanering är separata produktsteg.
+- Previewn utformas som en startsida och beslutsprodukt snarare än som
+  löpande teknisk dokumentation.
+- Samma informationsarkitektur ska kunna återanvändas i en framtida webb- eller
+  mobilapplikation.
+- Rundjämförelsen får bara använda uppgifter som stöds av normativ seed-data.
+- Stjärnbetyg eller andra poäng införs inte utan en dokumenterad
+  bedömningsmodell.
+- Patch 005 ändrar inte schema, seeds, exporter eller dataset.
