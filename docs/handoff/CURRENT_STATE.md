@@ -49,7 +49,18 @@ Aktuell commit efter att dokumentet har publicerats ska alltid verifieras med Gi
 - Patch 002 – Hallandsrundan version 1: **COMPLETE**
 - Patch 003 – Blekingerundan version 1: **COMPLETE**
 - Patch 004 – Repository Governance Foundation: **COMPLETE när dessa sex styrdokument är verifierade och finns på `main`**
-- Patch 005 – Tuesday Round Preview v1: **IMPLEMENTED på aktiv feature branch; inväntar lokal verifiering och publicering**
+- Patch 005 – Tuesday Round Preview v1: **COMPLETE**
+
+- Patch 006 – Navigation & Route Export: **COMPLETE lokalt; automatisk och manuell verifiering PASS, ännu ej committad eller publicerad**
+
+## Navigeringsexporter
+
+- My Maps: `exports/mymaps/`
+- Google Maps och mobil startsida: `exports/routes/`
+- Generator: `scripts/export_navigation.py`
+- Validering: `scripts/validate_patch_006.sh`
+
+Navigeringslänkar följer publicerad stoppordning men utgör inte en tidsoptimerad eller verifierad körplan.
 
 ## Kända beständiga begränsningar
 
@@ -67,3 +78,9 @@ Aktuell commit efter att dokumentet har publicerats ska alltid verifieras med Gi
 - Seeds ska kunna köras två gånger utan dubbletter.
 - Databas och exporter ska valideras tillsammans.
 - Lokal verifiering föregår publicering.
+
+## Patch 006B – aktuellt lokalt tillstånd
+
+Patch 006B är implementerad och verifierad på den lokala branchen `patch-006-navigation-route-export` men är ännu inte committad eller publicerad. Automatisk validering, `git diff --check` och manuell kontroll av de genererade Google Maps-länkarna har passerat.
+
+Samtliga rundor använder Hofterup som fast start och mål. Hallandsrundan innehåller elva butiksstopp och inkluderar Kattens Loppis & Kuriosa som säsongsberoende `conditional`-stopp.

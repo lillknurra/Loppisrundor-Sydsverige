@@ -18,6 +18,15 @@ raster och navigering planeras.
 En översikt över arbetsflödet finns i
 [`docs/tuesday/README.md`](docs/tuesday/README.md).
 
+## Navigering och kartor
+
+Patch 006 publicerar adressbaserade My Maps-filer och Google Maps-ruttlänkar utan API-nyckel:
+
+- [`docs/navigation/README.md`](docs/navigation/README.md)
+- [`exports/routes/index.html`](exports/routes/index.html)
+
+Ruttlänkarna följer publicerad `stop_order`. De är navigeringshjälp och inte bevis på tidsoptimering eller aktuella öppettider.
+
 ## Officiell läsordning
 
 Allt arbete ska börja med följande dokument:
@@ -153,3 +162,11 @@ Projektet använder små, atomiska patchar:
 10. squash-merga och ta bort feature-branchen.
 
 Dynamisk projektstatus finns i `docs/handoff/CURRENT_STATE.md`. Nästa rekommenderade arbete finns i `docs/handoff/HANDOFF.md`.
+
+## Patch 006B – rundresor från Hofterup
+
+Navigeringsrutterna startar och slutar i `Hofterup, Sverige`. Hofterup är en navigeringspunkt och räknas inte som ett butiksstopp eller som en rad i My Maps-exporterna.
+
+Mobilanpassade länkar skapas från hela kedjan Hofterup, samtliga butiker i publicerad `stop_order` och Hofterup. Varje deletapp innehåller högst fem navigeringsplatser och överlappar nästa deletapp i en gemensam brytpunkt.
+
+Hallandsrundan går i publicerad geografisk ordning via Höganäs, Ängelholm, Våxtorp, Laholm och Halmstad. Kattens Loppis & Kuriosa är ett `conditional` och säsongsberoende stopp vars öppettid måste kontrolleras före avresa.

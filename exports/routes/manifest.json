@@ -1,0 +1,34 @@
+{
+  "generator": "scripts/export_navigation.py",
+  "source": "database/schema.sql + database/seed/*.sql",
+  "google_maps_api_key_required": false,
+  "route_origin": "Hofterup, Sverige",
+  "route_destination": "Hofterup, Sverige",
+  "route_order_semantics": "published_geographic_work_order_not_time_optimized",
+  "routes": [
+    {
+      "route_code": "SOUTH",
+      "slug": "soderrundan",
+      "name": "Söderrundan",
+      "stops": 11,
+      "full_url_length": 747,
+      "mobile_segments": 3
+    },
+    {
+      "route_code": "HALLAND",
+      "slug": "hallandsrundan",
+      "name": "Hallandsrundan",
+      "stops": 11,
+      "full_url_length": 689,
+      "mobile_segments": 3
+    },
+    {
+      "route_code": "BLEKINGE",
+      "slug": "blekingerundan",
+      "name": "Blekingerundan",
+      "stops": 11,
+      "full_url_length": 709,
+      "mobile_segments": 3
+    }
+  ]
+}

@@ -90,3 +90,21 @@ Valideringen kördes mot `database/schema.sql` och `database/seed/001_soderrunda
 ### Känd begränsning
 
 Söderrundan version 1 är färdig som adressbaserad runda. Den saknade koordinaten för Trelleborg kan kompletteras senare när en kartpunkt kan styrkas mot en godkänd källa, utan att detta blockerar version 1.
+
+## Patch 006 – Navigation & Route Export
+
+- Lägger till reproducerbara adressbaserade CSV-exporter för Google My Maps.
+- Numrerar visningsnamn enligt publicerad `stop_order`.
+- Lägger till Google Maps-ruttlänkar för hela rundor och mobilanpassade deletapper.
+- Lägger till en mobilvänlig HTML-startsida för navigering.
+- Kräver ingen API-nyckel och ändrar inga butiks- eller öppettidsuppgifter.
+- Dokumenterar uttryckligen att stoppordningen är en geografisk arbetsordning, inte automatiskt tidsoptimerad.
+
+## Patch 006B – Rundresor från Hofterup och utökad Hallandsrunda
+
+- Lägger till `Hofterup, Sverige` som fast start och mål för samtliga rundor.
+- Ändrar mobilsegmenteringen så att den utgår från hela rundresekedjan.
+- Lägger till Kattens Loppis & Kuriosa som säsongsberoende och villkorat stopp i Hallandsrundan.
+- Ordnar Hallandsrundan geografiskt via Höganäs, Ängelholm, Våxtorp, Laholm och Halmstad.
+- Utökar manifestet och Patch 006-validatorn för rundresenavigering.
+- Regenererar My Maps-, Markdown-, HTML- och manifestfiler.

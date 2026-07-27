@@ -1,0 +1,111 @@
+﻿Namn,Ursprungligt_namn,Adress,Runda,Stoppordning,Kandidatstatus,Tisdagsöppettid,Besökstid_min,Public_ID,Beskrivning
+01 – Butiken Secondhand Bromölla,Butiken Secondhand Bromölla,"Industrigatan 3, Bromölla, Sverige",Blekingerundan,1,conditional,09:30–12:00,30,blekinge-butiken-bromolla,"Runda: Blekingerundan
+Stoppordning: 1
+Status: conditional
+Tisdag: 09:30–12:00
+Planerad besökstid: 30 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat kommunalt återbruksstopp med kläder, textilier och mindre prylar; kort tisdagsfönster och svagare profil för möbler och större elektronik.
+Källa: https://www.bromolla.se/butiken
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på Bromölla kommuns sida. Postnummer och koordinater lämnas NULL. Stoppordningen är inte fullständigt tidsoptimerad."
+02 – Majas Secondhand Kristianstad,Majas Secondhand Kristianstad,"Nässelvägen 5, 291 59 Kristianstad, Sverige",Blekingerundan,2,selected,10:00–18:00,60,blekinge-majas-kristianstad,"Runda: Blekingerundan
+Stoppordning: 2
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: cirka 1100 kvadratmeter och bred second hand-profil med tydligt fyndvärde.
+Källa: https://www.majassecondhand.se/om-oss/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, butiksstorlek och tisdagstid verifierade på verksamhetens officiella webbplats. Koordinater lämnas NULL."
+03 – Röda Korset Second hand Kristianstad,Röda Korset Second hand Kristianstad,"Östra Vallgatan 19, 291 31 Kristianstad, Sverige",Blekingerundan,3,selected,10:00–16:00,35,blekinge-roda-korset-kristianstad,"Runda: Blekingerundan
+Stoppordning: 3
+Status: selected
+Tisdag: 10:00–16:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: centralt och stabilt välgörenhetsstopp.
+Källa: https://www.rodakorset.se/ort/skane/kristianstads-kommun/second-hand/roda-korset-second-hand-kristianstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer och tisdagstid verifierade på Röda Korsets officiella butikssida. Koordinater lämnas NULL."
+04 – PMU Second Hand Kristianstad,PMU Second Hand Kristianstad,"Näsbychaussén 119, 291 36 Kristianstad, Sverige",Blekingerundan,4,selected,12:00–17:00,60,blekinge-pmu-kristianstad,"Runda: Blekingerundan
+Stoppordning: 4
+Status: selected
+Tisdag: 12:00–17:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: möbler, teknik, böcker, husgeråd, fritidsprylar och kafé.
+Källa: https://pmu.se/butik/kristianstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, sortiment och tisdagstid verifierade på PMU:s officiella butikssida. Koordinater lämnas NULL."
+05 – Erikshjälpen Second Hand Kristianstad,Erikshjälpen Second Hand Kristianstad,"Karlsgatan 47, 291 59 Kristianstad, Sverige",Blekingerundan,5,selected,12:00–18:00,60,blekinge-erikshjalpen-kristianstad,"Runda: Blekingerundan
+Stoppordning: 5
+Status: selected
+Tisdag: 12:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: över 1500 kvadratmeter med möbler och brett sortiment.
+Källa: https://erikshjalpen.se/butiker/second-hand-kristianstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, butiksstorlek, sortiment och tisdagstid verifierade på Erikshjälpens officiella butikssida. Koordinater lämnas NULL."
+06 – Två Hjärtan Sölvesborg,Två Hjärtan Sölvesborg,"Skånevägen 32, Sölvesborg, Sverige",Blekingerundan,6,selected,10:00–18:00,45,blekinge-tva-hjartan-solvesborg,"Runda: Blekingerundan
+Stoppordning: 6
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: ideell second hand med bred vardagsöppettid.
+Källa: https://tvahjartan.com/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på verksamhetens officiella webbplats. Postnummer och koordinater lämnas NULL."
+07 – Norreboden Second Hand,Norreboden Second Hand,"Norra Bryggerigatan 3, 294 34 Sölvesborg, Sverige",Blekingerundan,7,conditional,16:00–19:00,45,blekinge-norreboden-solvesborg,"Runda: Blekingerundan
+Stoppordning: 7
+Status: conditional
+Tisdag: 16:00–19:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat stopp med möbler, kläder, leksaker och prylar; öppnar sent på tisdagen.
+Källa: https://www.folkkyrkan.se/kontakt
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, sortiment och tisdagstid verifierade på verksamhetens officiella webbplats. Koordinater lämnas NULL. Sen öppning kräver särskild tidsplanering."
+08 – Blekinge Varuförmedling,Blekinge Varuförmedling,"Verkstadsvägen 1, 374 50 Asarum, Sverige",Blekingerundan,8,selected,12:00–18:00,60,blekinge-varuformedling-asarum,"Runda: Blekingerundan
+Stoppordning: 8
+Status: selected
+Tisdag: 12:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: stark loppisprofil med verktyg, elektronik, vinyl, möbler och hushållsvaror.
+Källa: https://blekingevaruformedling.se/kontakt/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, sortiment och tisdagstid verifierade på verksamhetens officiella webbplats. Koordinater lämnas NULL."
+09 – Hållbaren Karlshamn,Hållbaren Karlshamn,"Boktryckargatan 3, Karlshamn, Sverige",Blekingerundan,9,conditional,10:00–15:30,35,blekinge-hallbaren-karlshamn,"Runda: Blekingerundan
+Stoppordning: 9
+Status: conditional
+Tisdag: 10:00–15:30
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat kommunalt återbruksstopp med kortare dag och lunchstängning.
+Källa: https://www.karlshamn.se/bygga-bo-och-miljo/avfall-och-atervinning/hallbaren/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och vardagstid verifierade på Karlshamns kommuns sida. Sidan anger lunchstängt 12:00–13:00; exporten använder ytterintervallet 10:00–15:30. Postnummer och koordinater lämnas NULL."
+10 – 34:ans Fynd Karlshamn,34:ans Fynd Karlshamn,"Rörvägen 4, 374 32 Karlshamn, Sverige",Blekingerundan,10,selected,13:00–18:00,60,blekinge-34ans-fynd-karlshamn,"Runda: Blekingerundan
+Stoppordning: 10
+Status: selected
+Tisdag: 13:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: större second hand-butik med kafé och bred fyndprofil.
+Källa: https://www.34ansfynd.se/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer och tisdagstid verifierade på verksamhetens officiella webbplats. Koordinater lämnas NULL."
+11 – Röda Korset Second hand Karlshamn,Röda Korset Second hand Karlshamn,"Strömmavägen 2, 374 32 Karlshamn, Sverige",Blekingerundan,11,selected,13:00–17:00,45,blekinge-roda-korset-karlshamn,"Runda: Blekingerundan
+Stoppordning: 11
+Status: selected
+Tisdag: 13:00–17:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: cirka 700 kvadratmeter med mindre möbler, media, elektronik och husgeråd.
+Källa: https://www.rodakorset.se/ort/blekinge/karlshamns-kommun/second-hand/roda-korset-second-hand-karlshamn/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, butiksstorlek, sortiment och tisdagstid verifierade på Röda Korsets officiella butikssida. Koordinater lämnas NULL."
