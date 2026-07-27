@@ -93,7 +93,7 @@ Skapar:
 
 ## Patch 005 – Tuesday Round Preview v1
 
-**Status:** IMPLEMENTED på aktiv feature branch; inväntar lokal verifiering och publicering
+**Status:** COMPLETE
 **Scope:** Användarnära beslutsunderlag och synkroniserad dokumentation.
 
 ### Resultat
@@ -120,3 +120,36 @@ Skapar:
 - Stjärnbetyg eller andra poäng införs inte utan en dokumenterad
   bedömningsmodell.
 - Patch 005 ändrar inte schema, seeds, exporter eller dataset.
+
+## Patch 006 – Navigation & Route Export
+
+**Status:** COMPLETE lokalt; automatisk och manuell verifiering PASS, ännu ej committad eller publicerad
+**Scope:** Reproducerbara kart- och navigeringsexporter utan betald routing-API.
+
+### Resultat
+
+- Skapar `scripts/export_navigation.py`.
+- Skapar adressbaserade och numrerade My Maps-CSV-filer för samtliga rundor.
+- Skapar en Google Maps-länk för hela rundan och mobilanpassade deletapper.
+- Skapar `exports/routes/index.html` som gemensam mobil startsida.
+- Skapar lokal reproducerbar validering i `scripts/validate_patch_006.sh`.
+- Ändrar inte schema, seeds eller verifierade datasetfält.
+
+### Beständiga beslut
+
+- Navigeringslänkar kräver ingen Google Maps API-nyckel.
+- Publicerad `stop_order` används utan påstående om tidsoptimering.
+- Mobildeletapper får högst fem navigeringsplatser totalt, inklusive segmentets start och mål, och överlappar vid etappbyte.
+- Google Maps aktuella vägval är extern runtime-information och lagras inte som verifierad projektdata.
+
+## Patch 006B – Rundresor från Hofterup och utökad Hallandsrunda
+
+**Status:** COMPLETE lokalt; automatisk validator, `git diff --check` och manuell Google Maps-kontroll PASS. Ännu ej committad eller publicerad.
+
+- Fast start och mål i Hofterup för samtliga tre rundor.
+- Hofterup hålls utanför butikstabellen, CSV-raderna och stoppantalet.
+- Mobilsegmentering från den fullständiga rundresekedjan.
+- Kattens Loppis & Kuriosa tillagd som säsongsberoende `conditional`-stopp.
+- Hallandsrundan omordnad via Höganäs, Ängelholm, Våxtorp, Laholm och Halmstad.
+- Blekingerundans befintliga huvudriktning och Kristianstadsordning behålls.
+- Manifest och validator utökade för start, mål, segmentkedja, stoppantal och URL-längder.

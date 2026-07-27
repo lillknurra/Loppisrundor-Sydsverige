@@ -1,0 +1,111 @@
+﻿Namn,Ursprungligt_namn,Adress,Runda,Stoppordning,Kandidatstatus,Tisdagsöppettid,Besökstid_min,Public_ID,Beskrivning
+01 – Röda Korset Second hand Höganäs,Röda Korset Second hand Höganäs,"Storgatan 21, 263 37 Höganäs, Sverige",Hallandsrundan,1,conditional,13:00–17:00,35,halland-roda-korset-hoganas,"Runda: Hallandsrundan
+Stoppordning: 1
+Status: conditional
+Tisdag: 13:00–17:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat inledande stopp med husgeråd, kläder, leksaker och mindre fynd.
+Källa: https://www.rodakorset.se/ort/skane/hoganas-kommun/second-hand/roda-korset-second-hand-hoganas/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på Röda Korsets officiella butikssida. Stoppet ligger först i den publicerade geografiska ordningen från Hofterup via Höganäs mot Ängelholm."
+02 – PMU Second Hand Ängelholm,PMU Second Hand Ängelholm,"Transportgatan 5, 262 71 Ängelholm, Sverige",Hallandsrundan,2,selected,10:00–18:00,60,halland-pmu-angelholm,"Runda: Hallandsrundan
+Stoppordning: 2
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: stor välgörenhetsbutik med brett sortiment.
+Källa: https://pmu.se/butik/angelholm/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på PMU:s officiella butikssida. Koordinater lämnas NULL; adress är tillräcklig för version 1."
+03 – Fyndhuset Ängelholm,Fyndhuset Ängelholm,"Heimdallgatan 42, 262 71 Ängelholm, Sverige",Hallandsrundan,3,selected,14:00–18:00,50,halland-fyndhuset-angelholm,"Runda: Hallandsrundan
+Stoppordning: 3
+Status: selected
+Tisdag: 14:00–18:00
+Planerad besökstid: 50 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: antikt, kuriosa, retro och möbler med tydlig loppisprofil.
+Källa: https://www.fyndhusetengelholm.se/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på verksamhetens officiella webbplats. Öppnar 14:00 och bör tidsplaneras därefter."
+04 – Röda Korset Second hand Ängelholm,Röda Korset Second hand Ängelholm,"Storgatan 4A, 262 32 Ängelholm, Sverige",Hallandsrundan,4,selected,14:00–17:00,35,halland-roda-korset-angelholm,"Runda: Hallandsrundan
+Stoppordning: 4
+Status: selected
+Tisdag: 14:00–17:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: diversehandel med kläder, skor, porslin och mindre prylar men utan möbler och böcker.
+Källa: https://www.rodakorset.se/ort/skane/angelholms-kommun/second-hand/roda-korset-second-hand-angelholms/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på Röda Korsets officiella butikssida. Öppnar 14:00."
+05 – Kattens Loppis & Kuriosa,Kattens Loppis & Kuriosa,"Kristianstadsvägen 6, 312 75 Våxtorp, Sverige",Hallandsrundan,5,conditional,13:00–17:00,45,halland-kattens-loppis-vaxtorp,"Runda: Hallandsrundan
+Stoppordning: 5
+Status: conditional
+Tisdag: 13:00–17:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Säsongsöppet loppis- och kuriosastopp med porslin, böcker, glas, möbler, retro, antikt och varierat bohag. Geografiskt naturligt mellan Ängelholm och Laholm.
+Källa: https://loppisportalen.se/biz/kattens-loppis-kuriosa/
+Kontrollerad: 2026-07-27
+Anteckningar: Adressen stöds även av Visit Laholm. Loppisportalen anger tisdag 13:00–17:00 april–oktober och sommaröppet alla dagar 13:00–17:00 från midsommardagen till 15 augusti. Andra kataloguppgifter motsäger tisdagstiden. Öppettiden måste därför kontrolleras före avresa och posten ska förbli conditional tills en primär eller direkt verksamhetskälla har verifierats. Schemat saknar seasonal_unverified och directory; närmaste tillåtna värden verify_directly och secondary_source används."
+06 – Röda Korset Second hand Laholm,Röda Korset Second hand Laholm,"Östertullsgatan 24, 312 30 Laholm, Sverige",Hallandsrundan,6,selected,10:00–17:00,40,halland-roda-korset-laholm,"Runda: Hallandsrundan
+Stoppordning: 6
+Status: selected
+Tisdag: 10:00–17:00
+Planerad besökstid: 40 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: centralt och stabilt tisdagstopp mellan Våxtorp och Halmstad.
+Källa: https://www.rodakorset.se/ort/halland/laholms-kommun/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på Röda Korsets officiella Laholmssida."
+07 – Kretsloppan Halmstad,Kretsloppan Halmstad,"Knäredsgatan 23, 302 50 Halmstad, Sverige",Hallandsrundan,7,selected,10:00–15:30,50,halland-kretsloppan-halmstad,"Runda: Hallandsrundan
+Stoppordning: 7
+Status: selected
+Tisdag: 10:00–15:30
+Planerad besökstid: 50 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: kommunal återbruksbutik med möbler, cyklar, glas och porslin.
+Källa: https://www.halmstad.se/byggaboochmiljo/avfallochatervinning/aterbrukochateranvandning/kretsloppansecondhandbutik.n2299.html
+Kontrollerad: 2026-07-26
+Anteckningar: Officiell kommunal sida visar tisdag 10:00–12:30 och 13:00–15:30. Exporten använder hela ytterintervallet; lunchstängningen måste beaktas i körplanen."
+08 – PMU Second Hand Halmstad,PMU Second Hand Halmstad,"Stormgatan 10, 302 63 Halmstad, Sverige",Hallandsrundan,8,selected,12:00–18:00,60,halland-pmu-halmstad,"Runda: Hallandsrundan
+Stoppordning: 8
+Status: selected
+Tisdag: 12:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: bred butik med möbler, porslin, böcker, teknik, fritid och kafé.
+Källa: https://pmu.se/butik/halmstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, sortiment och tisdagstid verifierade på PMU:s officiella butikssida."
+09 – Myrorna Halmstad,Myrorna Halmstad,"Karl XI:s väg 47, Halmstad, Sverige",Hallandsrundan,9,conditional,10:00–18:00,40,halland-myrorna-halmstad,"Runda: Hallandsrundan
+Stoppordning: 9
+Status: conditional
+Tisdag: 10:00–18:00
+Planerad besökstid: 40 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat centralt stopp med kläder, inredning, böcker, skivor, hushållsvaror och mindre möbler.
+Källa: https://www.myrorna.se/butiker/halmstad/halmstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, sortiment och tisdagstid verifierade på Myrornas officiella butikssida. Postnummer och koordinater lämnas NULL eftersom de inte styrks av den använda officiella sidan."
+10 – Erikshjälpen Second Hand Halmstad,Erikshjälpen Second Hand Halmstad,"Ryttarevägen 10, 302 62 Halmstad, Sverige",Hallandsrundan,10,conditional,11:00–18:00,60,halland-erikshjalpen-halmstad,"Runda: Hallandsrundan
+Stoppordning: 10
+Status: conditional
+Tisdag: 11:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Villkorat högvärdesstopp: över 2100 kvadratmeter med möbler, el, böcker, media, hem- och hushållssortiment samt kafé.
+Källa: https://erikshjalpen.se/butiker/second-hand-halmstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, sortiment och tisdagstid verifierade på Erikshjälpens officiella butikssida. Koordinater lämnas NULL tills en kartpunkt kan styrkas."
+11 – Röda Korset Second hand Halmstad,Röda Korset Second hand Halmstad,"Ryttarevägen 11, 302 62 Halmstad, Sverige",Hallandsrundan,11,selected,12:00–18:00,45,halland-roda-korset-halmstad,"Runda: Hallandsrundan
+Stoppordning: 11
+Status: selected
+Tisdag: 12:00–18:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: etablerad second hand-butik med bra geografiskt slutläge i Halmstad.
+Källa: https://www.rodakorset.se/ort/halland/halmstads-kommun/second-hand/roda-korset-second-hand-halmstad/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på Röda Korsets officiella butikssida."

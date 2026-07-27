@@ -86,7 +86,7 @@ The initial roadmap is:
 - Patch 003 – Verification Framework
 - Patch 004 – Initial Dataset
 - Patch 005 – Tuesday Round Preview v1
-- Patch 006 – Maps and Mobile Exports
+- Patch 006 – Navigation & Route Export
 
 Later patch numbering must remain sequential and must not be selected implicitly by a patch that is still active.
 
@@ -211,3 +211,12 @@ When user action is needed, provide:
 - exact evidence to return
 
 Every substantial work step should end with a complete continuation block under `## Nästa prompt` when the user is expected to continue in a new chat.
+
+## Patch 006B – navigeringsprinciper
+
+- `Hofterup, Sverige` är fast start och mål för samtliga tre rundor.
+- Hofterup lagras inte som butik och räknas inte i antalet butiksstopp.
+- Helrutten följer publicerad `stop_order`; den är inte automatiskt tidsoptimerad.
+- Mobildeletapper byggs från hela navigeringskedjan och får högst fem navigeringsplatser inklusive segmentets start och mål.
+- Kattens Loppis & Kuriosa förblir `conditional` tills tisdagstiden har verifierats genom primär eller direkt verksamhetskälla.
+- Aktuella öppettider ska alltid kontrolleras före avresa.

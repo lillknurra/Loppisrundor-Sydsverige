@@ -1,0 +1,111 @@
+﻿Namn,Ursprungligt_namn,Adress,Runda,Stoppordning,Kandidatstatus,Tisdagsöppettid,Besökstid_min,Public_ID,Beskrivning
+01 – Erikshjälpen Second Hand Lund Västerbro,Erikshjälpen Second Hand Lund Västerbro,"Åldermansgatan 2, 227 64 Lund, Sverige",Söderrundan,1,selected,10:00–18:00,60,south-erikshjalpen-lund-vasterbro,"Runda: Söderrundan
+Stoppordning: 1
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: stor butik med brett sortiment och kafé.
+Källa: https://erikshjalpen.se/butiker/lund-vasterbro/
+Kontrollerad: 2026-07-26
+Anteckningar: Startstopp. Adress och tisdagstid verifierade på officiell butikssida; adresskoordinat verifierad i karttjänst."
+02 – Erikshjälpen Second Hand Lund City,Erikshjälpen Second Hand Lund City,"Stora Södergatan 25, 222 23 Lund, Sverige",Söderrundan,2,selected,11:00–18:00,45,south-erikshjalpen-lund-city,"Runda: Söderrundan
+Stoppordning: 2
+Status: selected
+Tisdag: 11:00–18:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: hem, hushåll, möbler, el, böcker och media.
+Källa: https://erikshjalpen.se/butiker/second-hand-lund-city/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på officiell butikssida; adresskoordinat verifierad i karttjänst."
+03 – Erikshjälpen Second Hand Malmö,Erikshjälpen Second Hand Malmö,"Sallerupsvägen 88, 212 28 Malmö, Sverige",Söderrundan,3,selected,10:00–18:00,60,south-erikshjalpen-malmo,"Runda: Söderrundan
+Stoppordning: 3
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: stor butik med möbler, hem, kläder och kafé.
+Källa: https://erikshjalpen.se/butiker/second-hand-malmo/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på officiell butikssida; adresskoordinat verifierad i karttjänst."
+04 – Björkåfrihet Malmö Heleneholm,Björkåfrihet Malmö Heleneholm,"Lantmannagatan 59, 214 48 Malmö, Sverige",Söderrundan,4,selected,10:00–19:00,45,south-bjorkafrihet-heleneholm,"Runda: Söderrundan
+Stoppordning: 4
+Status: selected
+Tisdag: 10:00–19:00
+Planerad besökstid: 45 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: större stadsdelsbutik med bättre rundvärde än citybutikerna.
+Källa: https://english.bjorkafrihet.se/oppettider-bjorkafrihet-second-hand-butiker/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på officiell butikssida; postnummer och adresskoordinat verifierade i karttjänst."
+05 – Skåne Stadsmission Second Hand Mobilia,Skåne Stadsmission Second Hand Mobilia,"Per Albin Hanssons väg 40, 214 32 Malmö, Sverige",Söderrundan,5,selected,10:00–20:00,35,south-skane-stadsmission-mobilia,"Runda: Söderrundan
+Stoppordning: 5
+Status: selected
+Tisdag: 10:00–20:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: kläder, barnvaror, leksaker och hemprylar.
+Källa: https://www.skanestadsmission.se/second-hand/
+Kontrollerad: 2026-07-26
+Anteckningar: Butiken ligger i Mobilia, södra huset, plan 1. Postnummer och adresskoordinat verifierade i karttjänst."
+06 – Myrorna Malmö centrum,Myrorna Malmö centrum,"Södra Förstadsgatan 74A, 214 20 Malmö, Sverige",Söderrundan,6,selected,10:00–18:00,35,south-myrorna-malmo-centrum,"Runda: Söderrundan
+Stoppordning: 6
+Status: selected
+Tisdag: 10:00–18:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: centralt stopp med kläder, inredning och prylar.
+Källa: https://www.myrorna.se/butiker/malmo/malmo-centrum/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress och tisdagstid verifierade på officiell butikssida; postnummer och adresskoordinat verifierade i karttjänst."
+07 – Björkåfrihet Malmö City,Björkåfrihet Malmö City,"Södra Förstadsgatan 14, 211 43 Malmö, Sverige",Söderrundan,7,selected,11:00–19:00,35,south-bjorkafrihet-malmo-city,"Runda: Söderrundan
+Stoppordning: 7
+Status: selected
+Tisdag: 11:00–19:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet: centralt stopp men mer klädtyngt än lagerbutikerna.
+Källa: https://bjorkafrihet.se/oppettider-bjorkafrihet-second-hand-butiker/
+Kontrollerad: 2026-07-26
+Anteckningar: Sommartiden 1 juli–30 augusti är också 11:00–19:00 på vardagar. Postnummer och adresskoordinat verifierade i karttjänst."
+08 – AB Småland,AB Småland,"Södra Förstadsgatan 25-27, 211 43 Malmö, Sverige",Söderrundan,8,conditional,10:00–18:00,30,south-ab-smaland-malmo,"Runda: Söderrundan
+Stoppordning: 8
+Status: conditional
+Tisdag: 10:00–18:00
+Planerad besökstid: 30 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Låg prioritet: design- och hållbarhetsinriktat, med svagare loppisprofil.
+Källa: https://www.skanestadsmission.se/second-hand/
+Kontrollerad: 2026-07-26
+Anteckningar: Hoppa över först vid tidsbrist. Postnummer och adresskoordinat verifierade i karttjänst."
+09 – Skåne Stadsmission Second Hand Triangeln,Skåne Stadsmission Second Hand Triangeln,"Södra Förstadsgatan 41, 211 43 Malmö, Sverige",Söderrundan,9,conditional,10:00–20:00,25,south-skane-stadsmission-triangeln,"Runda: Söderrundan
+Stoppordning: 9
+Status: conditional
+Tisdag: 10:00–20:00
+Planerad besökstid: 25 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Låg prioritet: främst vintage, märkeskläder och accessoarer.
+Källa: https://www.skanestadsmission.se/second-hand/
+Kontrollerad: 2026-07-26
+Anteckningar: Hoppa över först vid tidsbrist. Butiken ligger i Triangelns köpcentrum, plan 2. Postnummer och adresskoordinat verifierade i karttjänst."
+10 – Erikshjälpen Second Hand Trelleborg,Erikshjälpen Second Hand Trelleborg,"Hedvägen 185, 231 66 Trelleborg, Sverige",Söderrundan,10,selected,11:00–18:00,60,south-erikshjalpen-trelleborg,"Runda: Söderrundan
+Stoppordning: 10
+Status: selected
+Tisdag: 11:00–18:00
+Planerad besökstid: 60 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Hög prioritet: över 650 kvadratmeter med möbler, el, hemmafix, böcker, media och brett hushållssortiment.
+Källa: https://erikshjalpen.se/butiker/second-hand-trelleborg/
+Kontrollerad: 2026-07-26
+Anteckningar: Adress, postnummer, sortiment och tisdagstid verifierade på officiell butikssida. Exakt koordinat lämnas NULL tills kartpunkten kan styrkas."
+11 – Röda Korset Second hand Ystad,Röda Korset Second hand Ystad,"Skansgatan 2, 271 43 Ystad, Sverige",Söderrundan,11,selected,12:00–17:00,35,south-roda-korset-ystad,"Runda: Söderrundan
+Stoppordning: 11
+Status: selected
+Tisdag: 12:00–17:00
+Planerad besökstid: 35 min
+Placering via: verifierad eller redovisad publicerad adress
+Bedömning: Normal prioritet och geografiskt slutstopp: kläder, glas, porslin och prydnadssaker; inga skrymmande möbler.
+Källa: https://www.rodakorset.se/ort/skane/ystads-kommun/second-hand/roda-korset-second-hand-ystad/
+Kontrollerad: 2026-07-26
+Anteckningar: Slutstopp. Officiella sidan anger tisdag–fredag 12:00–17:00 och länkar till karttjänst; adresskoordinaten är verifierad där."

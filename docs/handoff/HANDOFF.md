@@ -91,3 +91,39 @@ Patch 005:
 - Inga filer under `database/` eller `exports/` är ändrade.
 - Alla lokala Markdown-länkar fungerar.
 - `git diff --check` passerar.
+
+## Patch 006 – Navigation & Route Export
+
+Patch 006 bygger vidare på Tuesday Round Preview med reproducerbara navigeringsexporter.
+
+### Leveranser
+
+- `scripts/export_navigation.py`
+- `scripts/validate_patch_006.sh`
+- `docs/navigation/README.md`
+- `exports/mymaps/`
+- `exports/routes/`
+
+### Verifiering före publicering
+
+1. Kör `bash scripts/validate_patch_006.sh`.
+2. Öppna `exports/routes/index.html` lokalt.
+3. Prova minst en hel ruttlänk på dator.
+4. Prova samtliga deletapper för en runda på mobil.
+5. Kontrollera att My Maps-importen använder `Adress` och `Namn`.
+6. Granska att inga schema-, seed- eller datasetändringar finns.
+7. Kör `git diff --check`.
+
+### Avgränsningar
+
+Patch 006 innehåller inte automatisk ruttoptimering, restidsberäkning, GPX, PDF eller Google Cloud-integration.
+
+## Patch 006B – Hofterup och utökad Hallandsrunda
+
+Patch 006B ändrar navigeringsmodellen till `Hofterup → samtliga butiker i publicerad stop_order → Hofterup`. Hofterup är inte ett butiksstopp. Mobildeletapperna innehåller högst fem navigeringsplatser och delar en gemensam överlappningspunkt.
+
+Hallandsrundans publicerade geografi är `Hofterup → Höganäs → Ängelholm → Våxtorp → Laholm → Halmstad → Hofterup`.
+
+Kattens Loppis & Kuriosa är tillagd som `conditional`. Källorna om tisdagsöppettiden är inte entydiga, vilket kräver kontroll före avresa.
+
+Patchen är lokalt implementerad och validerad. Google Maps-länkarna har kontrollerats manuellt med PASS. Nästa steg är slutlig Git-granskning, commit, push och fjärrverifiering.
