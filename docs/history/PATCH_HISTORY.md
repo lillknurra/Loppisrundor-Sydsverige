@@ -123,7 +123,7 @@ Skapar:
 
 ## Patch 006 – Navigation & Route Export
 
-**Status:** COMPLETE lokalt; automatisk och manuell verifiering PASS, ännu ej committad eller publicerad
+**Status:** COMPLETE och publicerad
 **Scope:** Reproducerbara kart- och navigeringsexporter utan betald routing-API.
 
 ### Resultat
@@ -144,12 +144,32 @@ Skapar:
 
 ## Patch 006B – Rundresor från Hofterup och utökad Hallandsrunda
 
-**Status:** COMPLETE lokalt; automatisk validator, `git diff --check` och manuell Google Maps-kontroll PASS. Ännu ej committad eller publicerad.
+**Status:** COMPLETE och publicerad
+**PR:** #6 – `Patch 006B: Hofterup round-trip navigation exports`
+**Feature-commit:** `54d07dc689c1d411ba833127abb8abd7db975c98`
+**Stabil `main` efter squash merge:** `1b986073db68ac3a75de9e5073a81ff4afdcdd81`
 
 - Fast start och mål i Hofterup för samtliga tre rundor.
 - Hofterup hålls utanför butikstabellen, CSV-raderna och stoppantalet.
 - Mobilsegmentering från den fullständiga rundresekedjan.
-- Kattens Loppis & Kuriosa tillagd som säsongsberoende `conditional`-stopp.
+- Kattens Loppis & Kuriosa tillagd som säsongsberoende `conditional`-stopp. Hallandsrundan innehåller därefter 11 stopp: 7 `selected` och 4 `conditional`.
 - Hallandsrundan omordnad via Höganäs, Ängelholm, Våxtorp, Laholm och Halmstad.
 - Blekingerundans befintliga huvudriktning och Kristianstadsordning behålls.
 - Manifest och validator utökade för start, mål, segmentkedja, stoppantal och URL-längder.
+
+
+## Patch 006C – Post-Merge State Reconciliation
+
+**Status:** IN PROGRESS
+**Scope:** Dokumentationssynkronisering efter publiceringen av Patch 006B.
+
+### Syfte
+
+- Synkronisera `CURRENT_STATE.md`, `HANDOFF.md`, `PATCH_HISTORY.md` och `CHANGELOG.md` med det faktiska läget på `main`.
+- Dokumentera PR #6 samt feature- och squash-commit.
+- Rätta Hallandsrundans stopp- och statusantal.
+- Ta bort inaktuella uppgifter om lokal eller opublicerad Patch 006/006B.
+
+### Avgränsningar
+
+Patch 006C ändrar inte schema, seeds, ruttdata, scripts, genererade exporter eller verifieringspolicy. Nästa produkt- eller datapatch väljs separat efter att Patch 006C har slutförts.

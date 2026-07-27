@@ -7,7 +7,7 @@ Repositoryt innehåller tre publicerade version 1-rundor och en etablerad styrmo
 | Runda | Route code | Stopp | Selected | Conditional | Koordinatstatus |
 |---|---:|---:|---:|---:|---|
 | Söderrundan | `SOUTH` | 11 | enligt seed | enligt seed | 10 verifierade, 1 avsiktligt `NULL` |
-| Hallandsrundan | `HALLAND` | 10 | 7 | 3 | samtliga avsiktligt `NULL` |
+| Hallandsrundan | `HALLAND` | 11 | 7 | 4 | samtliga avsiktligt `NULL` |
 | Blekingerundan | `BLEKINGE` | 11 | 8 | 3 | samtliga avsiktligt `NULL` |
 
 Exakta statusantal för Söderrundan ska vid behov hämtas direkt ur databasen; detta dokument duplicerar inte värden som inte behövdes för Patch 004.
@@ -51,7 +51,7 @@ Aktuell commit efter att dokumentet har publicerats ska alltid verifieras med Gi
 - Patch 004 – Repository Governance Foundation: **COMPLETE när dessa sex styrdokument är verifierade och finns på `main`**
 - Patch 005 – Tuesday Round Preview v1: **COMPLETE**
 
-- Patch 006 – Navigation & Route Export: **COMPLETE lokalt; automatisk och manuell verifiering PASS, ännu ej committad eller publicerad**
+- Patch 006 – Navigation & Route Export: **COMPLETE och publicerad**
 
 ## Navigeringsexporter
 
@@ -79,8 +79,20 @@ Navigeringslänkar följer publicerad stoppordning men utgör inte en tidsoptime
 - Databas och exporter ska valideras tillsammans.
 - Lokal verifiering föregår publicering.
 
-## Patch 006B – aktuellt lokalt tillstånd
+## Patch 006B – publicerat slutläge
 
-Patch 006B är implementerad och verifierad på den lokala branchen `patch-006-navigation-route-export` men är ännu inte committad eller publicerad. Automatisk validering, `git diff --check` och manuell kontroll av de genererade Google Maps-länkarna har passerat.
+Patch 006B är **COMPLETE** och publicerad genom PR #6, `Patch 006B: Hofterup round-trip navigation exports`.
 
-Samtliga rundor använder Hofterup som fast start och mål. Hallandsrundan innehåller elva butiksstopp och inkluderar Kattens Loppis & Kuriosa som säsongsberoende `conditional`-stopp.
+- Feature-commit: `54d07dc689c1d411ba833127abb8abd7db975c98`
+- Squash-commit på `main`: `1b986073db68ac3a75de9e5073a81ff4afdcdd81`
+- Samtliga rundor använder Hofterup som fast start och mål.
+- Hallandsrundan innehåller 11 butiksstopp: 7 `selected` och 4 `conditional`.
+- Kattens Loppis & Kuriosa är säsongsberoende och `conditional`; aktuell tisdagstid måste kontrolleras före avresa.
+- Automatisk validator, `git diff --check` och manuell kontroll av Google Maps-länkar passerade före publicering.
+- Den tidigare feature-branchen är borttagen lokalt och från `origin`.
+
+## Patch 006C – Post-Merge State Reconciliation
+
+Patch 006C är en ren dokumentationssynkronisering efter Patch 006B:s merge. Den rättar status, stoppantal, handoff och patchhistorik så att de motsvarar publicerat läge på `main`.
+
+Patch 006C ändrar inte schema, seeds, ruttdata, scripts eller genererade exporter. Nästa produkt- eller datapatch är ännu inte vald.

@@ -120,10 +120,49 @@ Patch 006 innehåller inte automatisk ruttoptimering, restidsberäkning, GPX, PD
 
 ## Patch 006B – Hofterup och utökad Hallandsrunda
 
-Patch 006B ändrar navigeringsmodellen till `Hofterup → samtliga butiker i publicerad stop_order → Hofterup`. Hofterup är inte ett butiksstopp. Mobildeletapperna innehåller högst fem navigeringsplatser och delar en gemensam överlappningspunkt.
+Patch 006B är **COMPLETE** och publicerad genom PR #6, `Patch 006B: Hofterup round-trip navigation exports`.
 
-Hallandsrundans publicerade geografi är `Hofterup → Höganäs → Ängelholm → Våxtorp → Laholm → Halmstad → Hofterup`.
+- Feature-commit: `54d07dc689c1d411ba833127abb8abd7db975c98`
+- Squash-commit på `main`: `1b986073db68ac3a75de9e5073a81ff4afdcdd81`
+- Navigeringsmodellen är `Hofterup → samtliga butiker i publicerad stop_order → Hofterup`.
+- Hofterup är inte ett butiksstopp.
+- Mobildeletapper innehåller högst fem navigeringsplatser och delar en gemensam överlappningspunkt.
+- Hallandsrundans publicerade geografi är `Hofterup → Höganäs → Ängelholm → Våxtorp → Laholm → Halmstad → Hofterup`.
+- Hallandsrundan innehåller 11 butiksstopp: 7 `selected` och 4 `conditional`.
+- Kattens Loppis & Kuriosa är `conditional` och säsongsberoende; aktuell tisdagstid måste kontrolleras före avresa.
+- Den tidigare feature-branchen är borttagen lokalt och från `origin`.
 
-Kattens Loppis & Kuriosa är tillagd som `conditional`. Källorna om tisdagsöppettiden är inte entydiga, vilket kräver kontroll före avresa.
+## Patch 006C – Post-Merge State Reconciliation
 
-Patchen är lokalt implementerad och validerad. Google Maps-länkarna har kontrollerats manuellt med PASS. Nästa steg är slutlig Git-granskning, commit, push och fjärrverifiering.
+Patch 006C synkroniserar endast styrande dokumentation med det publicerade slutläget efter Patch 006B.
+
+### Omfattning
+
+- rätta Patch 006 och 006B till publicerad `COMPLETE`-status,
+- dokumentera PR #6 samt feature- och squash-commit,
+- rätta Hallandsrundans stopp- och statusantal,
+- ersätta inaktuella commit-, push- och publiceringsinstruktioner,
+- synkronisera patchhistorik och changelog.
+
+### Avgränsningar
+
+Patch 006C ändrar inte:
+
+- schema,
+- seeds,
+- ruttdata,
+- scripts,
+- genererade exporter,
+- verifieringspolicy.
+
+## Nästa rekommenderade arbete efter Patch 006C
+
+Nästa produkt- eller datapatch är ännu inte vald. Den ska väljas uttryckligen som ett separat beslut efter att Patch 006C är granskad och publicerad.
+
+Före nästa implementation ska arbetspasset:
+
+1. verifiera ren och uppdaterad `main`,
+2. läsa den officiella dokumentordningen,
+3. välja exakt produkt- eller datamål,
+4. definiera patchnummer, scope, evidensgränser, berörda filer och verifieringskrav,
+5. undvika att blanda ny datainsamling, schemaändring och produktutveckling i samma patch utan uttryckligt beslut.
