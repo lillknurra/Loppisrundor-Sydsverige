@@ -36,12 +36,12 @@ Blekingerundan version 1 är färdig som adressbaserad runda. Exakta koordinater
 
 ### Färdigställd
 
-- Publicerade Hallandsrundan version 1 med 10 verifierade tisdagstopp i Ängelholm, Laholm, Halmstad och Höganäs.
-- Datasetet innehåller 7 valda stopp och 3 villkorade stopp.
+- Publicerade Hallandsrundan version 1, senare utökad genom Patch 006B till 11 tisdagstopp i Höganäs, Ängelholm, Våxtorp, Laholm och Halmstad.
+- Datasetet innehåller efter Patch 006B 7 valda stopp och 4 villkorade stopp.
 - Lade till Erikshjälpen Second Hand Halmstad och Myrorna Halmstad från respektive officiell butikssida.
 - Samtliga koordinater lämnas `NULL`; version 1 är därför adressbaserad och inga kartpunkter har gissats.
 - Kretsloppans publicerade ytterintervall är 10:00–15:30, men butiken har lunchstängt 12:30–13:00 och detta är dokumenterat i stoppets notering.
-- Gjorde Hallandsseedens butiksinlägg återkörningsbara med `INSERT OR IGNORE`.
+- Gjorde Hallandsseedens butiksinlägg återkörningsbara och lade genom Patch 006B till Kattens Loppis & Kuriosa som säsongsberoende `conditional`-stopp.
 - Publicerade härledda exporter:
   - `exports/csv/hallandsrundan_v1.csv`
   - `exports/geojson/hallandsrundan_v1.geojson`
@@ -53,10 +53,10 @@ Valideringen kördes mot `database/schema.sql` och båda seed-filerna i en ren S
 - `PRAGMA integrity_check;` → `ok`
 - `PRAGMA foreign_key_check;` → inga rader
 - dubbel seed-körning skapade inga dubbletter
-- Hallandsrundan innehåller 10 stopp: 7 `selected` och 3 `conditional`
+- Hallandsrundan innehåller efter Patch 006B 11 stopp: 7 `selected` och 4 `conditional`
 - `v_route_candidates` och `v_needs_verification` kördes utan fel
-- CSV-exporten innehåller 10 datarader i databasens stoppordning
-- GeoJSON-exporten innehåller 10 features i samma stoppordning
+- CSV-exporten innehåller efter Patch 006B 11 datarader i databasens stoppordning
+- GeoJSON-exporten innehåller efter Patch 006B 11 features i samma stoppordning
 - GeoJSON använder `geometry: null` för samtliga stopp eftersom koordinaterna är avsiktligt overifierade
 
 ### Kända begränsningar
