@@ -22,6 +22,9 @@ Exakta statusantal för Söderrundan ska vid behov hämtas direkt ur databasen; 
 - Verifieringsregler: `VERIFICATION_GUIDE.md`
 - Officiell läsordning: `docs/handoff/MASTER_INDEX.md`
 
+- Tuesday Planning:
+  - `docs/tuesday/README.md`
+  - `docs/tuesday/TUESDAY_ROUND_PREVIEW.md`
 ## Publicerade exporter
 
 Varje publicerad runda har motsvarande CSV- och GeoJSON-export under:
@@ -46,6 +49,7 @@ Aktuell commit efter att dokumentet har publicerats ska alltid verifieras med Gi
 - Patch 002 – Hallandsrundan version 1: **COMPLETE**
 - Patch 003 – Blekingerundan version 1: **COMPLETE**
 - Patch 004 – Repository Governance Foundation: **COMPLETE när dessa sex styrdokument är verifierade och finns på `main`**
+- Patch 005 – Tuesday Round Preview v1: **IMPLEMENTED på aktiv feature branch; inväntar lokal verifiering och publicering**
 
 ## Kända beständiga begränsningar
 

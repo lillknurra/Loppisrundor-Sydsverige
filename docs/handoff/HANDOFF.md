@@ -44,3 +44,50 @@ Ingen specifik nästa region låses i styrdokumentationen innan den har valts ut
 - Fyll inte saknade koordinater eller postnummer med antaganden.
 - Ändra inte befintliga identifierare utan särskilt migreringsbeslut.
 - Markera inte en datarunda som tidsoptimerad om den endast har en geografisk arbetsordning.
+
+## Patch 005 – Tuesday Round Preview v1
+
+Patch 005 skapar projektets första användarnära beslutsprodukt för planering
+av en tisdagsrunda.
+
+Previewn hjälper en grupp att jämföra Söderrundan, Hallandsrundan och
+Blekingerundan innan någon detaljerad rutt planeras.
+
+### Levererade filer
+
+- `docs/tuesday/README.md`
+- `docs/tuesday/TUESDAY_ROUND_PREVIEW.md`
+
+### Produktprincip
+
+Tuesday Round Preview fungerar som en startsida för ett framtida
+planeringsflöde, inte som ett långt tekniskt dokument.
+
+Informationsarkitekturen bygger på:
+
+- jämförbara rundkort,
+- snabbfakta,
+- geografisk profil,
+- faktiska exempelstopp,
+- praktiska begränsningar,
+- gemensamma diskussionsfrågor,
+- ett tydligt överlämnande till nästa planeringssteg.
+
+### Avgränsningar
+
+Patch 005:
+
+- ändrar inte schema, seeds, exporter eller dataset,
+- skapar ingen ruttalgoritm,
+- presenterar inte befintlig stoppordning som tidsoptimerad,
+- inför inga stjärnbetyg eller andra poäng,
+- ersätter inte kontroll av tidskänsliga uppgifter före resdagen.
+
+### Verifiering före commit
+
+- Samtliga tre rundor finns i previewn.
+- Stoppantal och statusantal stämmer med seed-data.
+- Namngivna exempelbutiker finns i respektive seed.
+- Inga filer under `database/` eller `exports/` är ändrade.
+- Alla lokala Markdown-länkar fungerar.
+- `git diff --check` passerar.
